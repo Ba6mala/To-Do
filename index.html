@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="container my-5 text-center">
+        <h1 class="text-light">To-Do List</h1>
+        <div class="todo-app bg-light w-50 rounded p-3">
+            <h2>My To-Do List</h2>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Add a new task..."  class=" form-control">
+                <button type="button" class="btn" onclick="addTask()">Add</button>
+            </form>
+    
+            <ul id="todo-list" class="list-group"></ul>
+
+            </ul>
+        </div>
+    </div>
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
