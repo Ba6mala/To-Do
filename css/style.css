@@ -58,7 +58,7 @@ form {
     border: 1px solid #726FBF;
     border-radius: 6px;
     margin-top: 20px;
-    width:300%;
+    width: 100%;
     display: flex;
     padding: 5px 10px;
 }
@@ -70,16 +70,6 @@ form {
 span {
     width: 100%;
     text-align: justify;
-}
-
-@media (max-width: 400px) {
-
-    .list-group-item {
-        width: 100%;
-    }
-    /* span {
-        width: 50%;
-    } */
 }
 
 i {
