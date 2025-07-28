@@ -72,6 +72,16 @@ span {
     text-align: justify;
 }
 
+@media (max-width: 400px) {
+
+    .list-group-item {
+        width: 100%;
+    }
+    /* span {
+        width: 50%;
+    } */
+}
+
 i {
     color: red;
     padding: 4px;
